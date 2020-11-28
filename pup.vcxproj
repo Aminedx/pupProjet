@@ -118,14 +118,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Article.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="commande.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="MyForm1.cpp" />
     <ClCompile Include="MyForm2.cpp" />
     <ClCompile Include="MyForm3.cpp" />
     <ClCompile Include="MyForm4.cpp" />
     <ClCompile Include="MyForm5.cpp" />
+    <ClCompile Include="personne.cpp" />
+    <ClCompile Include="personnel.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Article.h" />
+    <ClInclude Include="client.h" />
+    <ClInclude Include="commande.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -144,6 +153,8 @@
     <ClInclude Include="MyForm5.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="personne.h" />
+    <ClInclude Include="personnel.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
