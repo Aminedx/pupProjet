@@ -11,7 +11,7 @@ using namespace System;
 ref class commande
 {
 private:
-	array<Article^>^ stringArray;
+	
 	System::String^ refCommande;
 	System::String^ MoyenPaiment;
 	client Cl;
