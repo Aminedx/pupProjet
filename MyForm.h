@@ -136,6 +136,7 @@ namespace pup {
 			// 
 			// button5
 			// 
+			this->button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->button5->Location = System::Drawing::Point(507, 265);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(82, 44);
@@ -149,6 +150,7 @@ namespace pup {
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(610, 342);
 			this->Controls->Add(this->button5);
 			this->Controls->Add(this->button4);

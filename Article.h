@@ -21,14 +21,14 @@ public:
 
 	void setart(String^ nt, String^ na, String^ ref);
 	Double^ calculTTC(Double ,Double );
-	Double^ remise(Double);
+	//Double^ remise(Double);
 	Article();
 	int^ getqt();
 	void setqt(int qt);
     double^ getdb();
 	void setdb(Double h, Double tv, Double p);
-	string ajouter();
-	string afficher();
-	void supprimer();
+	//string ajouter();
+	//String afficher();
+	//void supprimer();
 };
 

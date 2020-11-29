@@ -16,6 +16,6 @@ private:
 	System::String^ MoyenPaiment;
 	client Cl;
 	Date^* D_livraison;
-	Date^* D_livraison;
+	Date^* D_emission;
 };
 

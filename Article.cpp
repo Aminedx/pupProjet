@@ -18,6 +18,7 @@ void Article::setart(String^ nt, String^ na, String^ ref)
 Double^ Article::calculTTC(Double TVA, Double HT)
 {
     Double TTC = TVA + HT;
+    return TTC;
 }
 
 Article::Article()
