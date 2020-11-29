@@ -17,5 +17,11 @@ private:
 	client Cl;
 	Date^* D_livraison;
 	Date^* D_emission;
+	Date^* D_payement ;
+public:
+	void ajouter();
+	void supprimer();
+	commande();
+
 };
 
